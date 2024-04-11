@@ -1,4 +1,19 @@
 
+# terraform-S3Backend-DyamoDB-Project
+
+## I have hosted a static website using terraform and stored the terraform.tfsate file in S3 Backend 
+
+
+### By uisng terraform  I have created resources from terraform registry in main.tf :-
+    
+    - AWS S3 Bucket
+    - Changed Bucket Ownwership from Pirvate to public By using ACL
+    - I have copyed the Index.html, error.html , images in S3 Bucket
+    - I have enabled static website hosting 
+
+### I have mentioned variables in variable.tf
+### I have mentioned prvider version,aws region in provider.tf
+
 ## Install Terraform
 
 ```bash
